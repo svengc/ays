@@ -5,6 +5,8 @@ import userIcon from "../assets/icons/UserIcon.svg"
 import menuIconDark from '../assets/icons/MenuLinesDark.svg'
 import bagShopDark from "../assets/icons/CartIconDark.svg"
 import userIconDark from "../assets/icons/UserIconDark.svg"
+import logo from "../assets/icons/logo.svg"
+import logoDark from "../assets/icons/logoDark.svg"
 
 function NavbarHome() {
     const [scrolled, setScrolled] = useState(false)
@@ -34,14 +36,15 @@ function NavbarHome() {
                         </span>
                     </button>
                 </div>
-                <button className={`font-fraunces text-xl md:text-2xl font-thin tracking-[0.2em] transition-colors duration-300 ${scrolled ? 'text-salvia-dark' : 'text-white'
-                    }`}>
-                    Arte
-                    <span className={scrolled ? 'text-dorado' : 'text-white/60'}>
-                    &
-                    </span>
-                    Estilo
+
+                <button className="transition-opacity duration-300 hover:opacity-80">
+                    <img
+                        src={scrolled ? logoDark : logo}
+                        alt="Arte & Estilo"
+                        className="h-6 md:h-8 w-auto"
+                    />
                 </button>
+
                 <div className='flex items-center gap-2 md:gap-3'>
                     <button className='relative flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full border transition-all duration-200 border-salvia/25 text-salvia-dark bg-transparent'>
                         <img src={scrolled ? bagShopDark : bagShop} alt="Carrito de compras" />
@@ -67,13 +70,15 @@ function Navbar() {
                         </span>
                     </button>
                 </div>
-                <button className='font-fraunces text-xl md:text-2xl font-thin tracking-[0.2em] transition-colors font-w duration-300'>
-                    Arte
-                    <span className='text-dorado'>
-                        &
-                    </span>
-                    Estilo
+
+                <button className="transition-opacity duration-300 hover:opacity-80">
+                    <img
+                        src={logoDark}
+                        alt="Arte & Estilo"
+                        className="h-6 md:h-8 w-auto"
+                    />
                 </button>
+
                 <div className='flex items-center gap-2 md:gap-3'>
                     <button className='relative flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full border transition-all duration-200 border-salvia/25 text-salvia-dark bg-transparent'>
                         <img src={bagShopDark} alt="Carrito de compras" />

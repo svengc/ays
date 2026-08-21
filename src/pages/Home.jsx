@@ -50,9 +50,9 @@ function Home() {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-10 grid-rows-[250px_260px] auto-rows-62.5 mb-3">
                     <div className="col-span-2 row-span-1">
-                        <div className="relative overflow-hidden rounded-2xl cursor-pointer h-full bg-[rgb(214,232,226)] min-h-[200px]">
+                        <div className="relative overflow-hidden rounded-2xl cursor-pointer h-full bg-[rgb(214,232,226)] min-h-50">
                             <img src="https://placehold.co/800x600" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 scale-100" />
-                            <div className="absolute inset-0 transition-opacity duration-300 bg-gradient-to-t from-salvia-dark/80 via-salvia-dark/10 to-transparent opacity-70">
+                            <div className="absolute inset-0 transition-opacity duration-300 bg-linear-to-t from-salvia-dark/80 via-salvia-dark/10 to-transparent opacity-70">
                             </div>
                             <div className="absolute bottom-0 left-0 p-5 md:p-6">
                                 <p className="text-[9px] uppercase tracking-[0.35em] mb-1 text-salvia-light">Salas & sofás</p>
@@ -67,9 +67,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="col-span-1 row-span-2 md:col-span-2 md:row-span-2">
-                        <div className="relative overflow-hidden rounded-2xl cursor-pointer h-full bg-[rgb(214,232,226)] min-h-[200px]">
+                        <div className="relative overflow-hidden rounded-2xl cursor-pointer h-full bg-[rgb(214,232,226)] min-h-50">
                             <img src="https://placehold.co/600x900" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 scale-100" />
-                            <div className="absolute inset-0 transition-opacity duration-300 bg-gradient-to-t from-salvia-dark/80 via-salvia-dark/10 to-transparent opacity-70">
+                            <div className="absolute inset-0 transition-opacity duration-300 bg-linear-to-t from-salvia-dark/80 via-salvia-dark/10 to-transparent opacity-70">
                             </div>
                             <div className="absolute bottom-0 left-0 p-5 md:p-6">
                                 <p className="text-[9px] uppercase tracking-[0.35em] mb-1 text-salvia-light">Conjuntos completos</p>
@@ -84,9 +84,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="col-span-1 row-span-1">
-                        <div className="relative overflow-hidden rounded-2xl cursor-pointer h-full bg-[rgb(214,232,226)] min-h-[200px]">
+                        <div className="relative overflow-hidden rounded-2xl cursor-pointer h-full bg-[rgb(214,232,226)] min-h-50">
                             <img src="https://placehold.co/600x500" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 scale-100" />
-                            <div className="absolute inset-0 transition-opacity duration-300 bg-gradient-to-t from-salvia-dark/80 via-salvia-dark/10 to-transparent opacity-70">
+                            <div className="absolute inset-0 transition-opacity duration-300 bg-linear-to-t from-salvia-dark/80 via-salvia-dark/10 to-transparent opacity-70">
                             </div>
                             <div className="absolute bottom-0 left-0 p-5 md:p-6">
                                 <p className="text-[9px] uppercase tracking-[0.35em] mb-1 text-salvia-light">Centro y auxiliares</p>
@@ -101,9 +101,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="col-span-1 row-span-1">
-                        <div className="relative overflow-hidden rounded-2xl cursor-pointer h-full bg-[rgb(214,232,226)] min-h-[200px]">
+                        <div className="relative overflow-hidden rounded-2xl cursor-pointer h-full bg-[rgb(214,232,226)] min-h-50">
                             <img src="https://placehold.co/600x500" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 scale-100" />
-                            <div className="absolute inset-0 transition-opacity duration-300 bg-gradient-to-t from-salvia-dark/80 via-salvia-dark/10 to-transparent opacity-70">
+                            <div className="absolute inset-0 transition-opacity duration-300 bg-linear-to-t from-salvia-dark/80 via-salvia-dark/10 to-transparent opacity-70">
                             </div>
                             <div className="absolute bottom-0 left-0 p-5 md:p-6">
                                 <p className="text-[9px] uppercase tracking-[0.35em] mb-1 text-salvia-light">Tapizadas & diseño</p>
