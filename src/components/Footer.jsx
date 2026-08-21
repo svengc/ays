@@ -29,12 +29,12 @@ function Footer() {
                     </div>
                 </div>
                 <div className="grid grid-cols-2 gap-x-14 gap-y-3 text-sm pt-2">
-                    <button className="text-left hover:text-white transition-colors text-white/50">Inicio</button>
-                    <button className="text-left hover:text-white transition-colors text-white/50">Colecciones</button>
-                    <button className="text-left hover:text-white transition-colors text-white/50">Nuestra Esencia</button>
-                    <button className="text-left hover:text-white transition-colors text-white/50">Contacto</button>
-                    <button className="text-left hover:text-white transition-colors text-white/50">Mi perfil</button>
-                    <button className="text-left hover:text-white transition-colors text-white/50">Términos de uso</button>
+                    <button className="text-left hover:text-white transition-colors font-outfit text-white/50">Inicio</button>
+                    <button className="text-left hover:text-white transition-colors font-outfit text-white/50">Colecciones</button>
+                    <button className="text-left hover:text-white transition-colors font-outfit text-white/50">Nuestra Esencia</button>
+                    <button className="text-left hover:text-white transition-colors font-outfit text-white/50">Contacto</button>
+                    <button className="text-left hover:text-white transition-colors font-outfit text-white/50">Mi perfil</button>
+                    <button className="text-left hover:text-white transition-colors font-outfit text-white/50">Términos de uso</button>
                 </div>
             </div>
             <div className="border-t border-white/10 px-5 md:px-10 py-5 grid grid-cols-1 sm:grid-cols-3 items-center gap-3 text-[11px] tracking-wide text-white/30">
@@ -43,13 +43,13 @@ function Footer() {
                         Arte <span className="text-dorado">&</span> Estilo
                     </button>
                 </div>
-                <span className="text-center">
+                <span className="text-center font-outfit text-white/50">
                     © 2025 Arte & Estilo. Todos los derechos reservados.
                 </span>
                 <div className="flex justify-center sm:justify-end gap-4 text-white/50">
-                    <a href="#" className="hover:text-white transition-colors">Instagram</a>
-                    <a href="#" className="hover:text-white transition-colors">Pinterest</a>
-                    <a href="#" className="hover:text-white transition-colors">WhatsApp</a>
+                    <a href="#" className="hover:text-white transition-colors font-outfit text-white/50">Instagram</a>
+                    <a href="#" className="hover:text-white transition-colors font-outfit text-white/50">Pinterest</a>
+                    <a href="#" className="hover:text-white transition-colors font-outfit text-white/50">WhatsApp</a>
                 </div>
             </div>
         </footer>
