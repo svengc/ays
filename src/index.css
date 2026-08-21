@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-fraunces: 'Fraunces', serif;
+  --font-outfit: 'Outfit', sans-serif;
+  --font-weight-thin: 300;
+
+
+  --color-salvia: #5C7A6B;
+  --color-salvia-light: #A8C4B8;
+  --color-salvia-dark: #2E3D35;
+  --color-crema: #F2F0EC;
+  --color-dorado: #B89A6A;
+  --color-taupe: #C4BAB2;
+}
