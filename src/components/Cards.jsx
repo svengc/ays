@@ -122,4 +122,37 @@ function CardCollections({ id, category, name, price, image }) {
     )
 }
 
-export { CardHome, CardHomeDiscount, CardCollections };
+function PrincipleCard({ numero, categoria, titulo, texto, image, invertido }) {
+    return (
+        <div
+            className={`bg-white rounded-3xl overflow-hidden flex flex-col md:flex-row shadow-xl ${invertido ? "md:flex-row-reverse" : ""
+                }`}
+        >
+            <div className="w-full md:w-1/2 h-64 md:h-auto">
+                <img
+                    src={image}
+                    alt={titulo}
+                    className="w-full h-full object-cover"
+                />
+            </div>
+            <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                <div className="flex items-center gap-3 mb-4">
+                    <span className="text-4xl text-taupe/40 font-fraunces font-thin">
+                        {numero}
+                    </span>
+                    <span className="text-[10px] uppercase tracking-[0.2em] text-taupe-dark font-outfit">
+                        {categoria}
+                    </span>
+                </div>
+                <h3 className="text-2xl md:text-3xl text-salvia-dark font-fraunces italic mb-4">
+                    {titulo}
+                </h3>
+                <p className="text-sm text-taupe-dark font-outfit leading-relaxed">
+                    {texto}
+                </p>
+            </div>
+        </div>
+    )
+}
+
+export { CardHome, CardHomeDiscount, CardCollections, PrincipleCard };
